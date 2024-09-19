@@ -1,0 +1,30 @@
+modLoader="lowcodefml"
+loaderVersion="${loader_version_range}"
+
+license="${mod_license}"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]]
+modId="${mod_id}" #mandatory
+version="${mod_version}" #mandatory
+displayName="${mod_name}" #mandatory
+# A URL for the "homepage" for this mod, displayed in the mod UI
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="withered_filter_logo.png"
+authors="${mod_authors}"
+displayTest="MATCH_VERSION"
+description='''${mod_description}'''
+
+[[dependencies.witherstormmod]] #optional
+    modId="witherstormmod"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.exposure]]
+    modId="exposure"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="AFTER"
+    side="BOTH"

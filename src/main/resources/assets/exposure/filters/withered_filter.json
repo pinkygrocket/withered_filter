@@ -1,0 +1,7 @@
+{
+  "item": {
+    "item": "witherstormmod:tainted_glass_pane"
+  },
+  "attachment_texture": "exposure:textures/gui/filter/withered_filter_lens.png",
+  "shader": "exposure:shaders/post/withered_filter.json"
+}
